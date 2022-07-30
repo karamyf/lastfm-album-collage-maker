@@ -1,1 +1,0 @@
-LastFm Album Collage Generator
