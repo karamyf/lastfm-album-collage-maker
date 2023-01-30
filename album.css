@@ -1,0 +1,88 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .search-bar {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+  }
+  
+  .search-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .exit-icon {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+    #albums {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        overflow-x: hidden;
+        background-color: #99ccff;
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50%;
+    }
+
+    #header {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        overflow-x: hidden;
+        background-color: #302E2F;
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50%;
+        color: white;
+        text-align: center;
+    }
+
+    #backcolor::-webkit-color-swatch {
+        border-radius: 50%;
+        border: 2px solid #000000;
+    }
+
+    #backcolor::-moz-color-swatch {
+        border-radius: 50%;
+        border: 2px solid #000000;
+    }
+
+    .form-group {
+        padding-top: 20px;
+    }
+
+    #searchTerm {
+        border-radius: 25px;
+        border: 2px solid #302E2F;
+        padding: 10px 20px;
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .modal-title {
+        text-align: center;
+    }
+
+    .btn-default {
+        border-radius: 25px;
+        background-color: #302E2F;
+        color: white;
+        border: 2px solid #302E2F;
+        padding: 10px 20px;
+        font-size: 18px;
+        margin-right: 20px;
+    }
